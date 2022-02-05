@@ -12,5 +12,8 @@ public class Main{
     w.name = "魔女";
     w.hp = 50;
     w.heal(h);
+    SuperHero sh = new SuperHero();
+    sh.attack();
+    sh.fly();
   }
 }
