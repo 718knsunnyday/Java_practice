@@ -1,10 +1,10 @@
 public class Student{
-  String name = "太郎";
+  String name;
   int hp = 100;
   int mp = 50;
   Sword sword;
   public void run(){
-    System.out.println("逃げる。");
+    System.out.println(this.name + "はソンビから逃げる。");
   }
   public void eat(){
     this.hp += 10;

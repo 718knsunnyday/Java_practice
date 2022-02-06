@@ -3,7 +3,7 @@ public class Zombie{
   int hp = 30;
   public void bite(){
     this.hp += 10;
-    System.out.println(this.name + "は学生を噛み10HP回復し、" + this.hp + "HPになった。");
+    System.out.println(this.name + "は、学生を噛み10HP回復し、" + this.hp + "HPになった。");
   }
   public void walk(){
     System.out.println(this.name + "は、獲物を探している。");
