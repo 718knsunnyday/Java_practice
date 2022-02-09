@@ -1,6 +1,6 @@
 public class Hero{
-  String name = "SpiderMan";
-  int hp = 10;
+  String name;
+  int hp;
 
   public void fly(){
     System.out.println(this.name + "は、空を30m飛んだ。");
@@ -12,6 +12,11 @@ public class Hero{
 
   public void sleep(){
     this.hp += 10;
-    System.out.println("は、眠って10HP回復した");
+    System.out.println(this.name + "は、眠って10HP回復した");
+  }
+
+  public Hero(String name){
+    this.name = name;
+    this.hp = 30;
   }
 }
