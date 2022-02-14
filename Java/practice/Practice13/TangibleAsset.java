@@ -1,4 +1,4 @@
-public abstract TangibleAsset{
+public abstract TangibleAsset extends Asset implements Thing{
   String name;
   int price;
   String color;
